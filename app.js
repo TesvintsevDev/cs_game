@@ -39,7 +39,6 @@ board.addEventListener('click', (event) => {
 })
 
 // DEBUG
-// startGame()
 
 function startGame() {
   setInterval(decreaseTime, 1000)
