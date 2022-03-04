@@ -38,8 +38,6 @@ board.addEventListener('click', (event) => {
   }
 })
 
-// DEBUG
-
 function startGame() {
   setInterval(decreaseTime, 1000)
   createRandomCircle()
