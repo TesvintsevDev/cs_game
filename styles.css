@@ -100,3 +100,29 @@ h1 {
   border-radius: 50%;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  /* Стили для устройств с максимальной шириной экрана 768px и меньше */
+  
+  .board {
+    width: 300px;
+    height: 300px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Стили для устройств с максимальной шириной экрана 480px и меньше */
+  
+  .board {
+    width: 200px;
+    height: 200px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+}
